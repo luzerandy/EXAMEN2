@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 22vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #2d85f8;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-descripcion {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+
+
+.Form {
+  width:30%;
+  margin-top: 50px;
+}
+
+.List {
+
+  margin-top: 60px;
+}
+.Cartelera {
+
+  margin-top: 60px;
+  
+}
+
+.Containers{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: calc(5px + 2vmin);
+  margin-bottom: 5vmin;
+
+}
+
+.Peliculas
+{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 5vmin;
+  min-width: 40vw;
+  min-height: 45vh;
+  background-color: rgb(243, 243, 243);
+  border-radius: 10px;
+
+}
+
+.Poster{
+  pointer-events: none;
+  min-width: 15vw; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Descripcion{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  
+}
+
+.Horarios{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+.Ticket{
+  display:flex;
+  text-align: center;
+  flex-direction:column;
+  justify-content: space-around;
+  min-height: 60vmin;
+  flex-wrap: wrap;
+  margin-top: 10vmin;
+  font-size: calc(6px + 2vmin);
+  min-width: 40vw;
+  min-height: 45vh;
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+}
+
+
+.Botones{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+
+}
+
+.Aviso{
+  display:flex;
+  text-align: center;
+  flex-direction:column;
+  justify-content: space-around;
+  min-height: 60vmin;
+  flex-wrap: wrap;
+  margin-top: 11vmin;
+  font-size: calc(8px + 2vmin);
+  min-width: 40vw;
+  min-height: 45vh;
+}
